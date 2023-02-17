@@ -10,9 +10,8 @@ pool:
   vmImage: windows-latest
 
 steps:
-- 
-- task: AzureResourceManagerTemplateDeployment@3
-  inputs:
+ - task: AzureResourceManagerTemplateDeployment@3
+   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'Visual Studio Enterprise Subscription(80a4e2f2-bd7b-4756-a84b-f29cf4ced68e)'
     subscriptionId: '80a4e2f2-bd7b-4756-a84b-f29cf4ced68e'
