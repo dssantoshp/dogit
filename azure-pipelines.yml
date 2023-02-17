@@ -18,9 +18,8 @@ steps:
     subscriptionId: '80a4e2f2-bd7b-4756-a84b-f29cf4ced68e'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-dev'
-    location: 'eas'
+    location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'template.json'
     csmParametersFile: 'parameters.json'
     deploymentMode: 'Incremental'
-
